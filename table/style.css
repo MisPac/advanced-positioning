@@ -1,0 +1,57 @@
+/* Add your CSS Below */
+
+* {
+    font-family: Georgia, serif;
+}
+
+/*header*/
+.header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+/*table*/
+.data {
+    display: flex;
+   justify-content: center;
+   margin-top: 50px;
+} 
+table {
+    border-collapse: collapse;
+    overflow: hidden;
+    border: .2px solid rgb(255,255,255);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;    
+}
+.header {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.header__categories {
+    background-color: rgb(31,100,0);
+    color: white;
+    border-radius: 40px;
+}
+td, th {
+    text-align: right;
+    padding: 10px;
+}
+th {
+    padding-left: 70px;
+}
+.price {
+    padding-left: 200px;
+}
+tr:nth-of-type(even) {
+    background-color: rgb(243,243,243);
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 10px;
+    width: 50%;
+    margin: 40px;  
+}

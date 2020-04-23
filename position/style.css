@@ -1,0 +1,24 @@
+/* Add your CSS Below */
+.one__b{
+    position: relative;
+    left: 30px;
+    bottom: 30px;
+}
+.two{
+
+}
+.two__c{
+    position: relative;
+    left: 100px;
+    bottom: 200px;
+}
+.three{
+
+}
+.three__a{
+    justify-content: flex-end;
+}
+.three__b, .three__c{
+    position: relative;
+    bottom: 100px;
+}
